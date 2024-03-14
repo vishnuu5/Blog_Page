@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Blog Page</title>
+    <link rel="icon" href="images/blog.png" type="icon">
+
+</head>
+
+<body>
+    <!-- Inside the <body> tag of index.html -->
+        <div class="nav">
+            <a href="#post1">post1</a>
+            <a href="#post2">post2</a>
+            <a href="#post3">post3</a>
+            <form id="search-form">
+            <div class="search">
+            <input type="text" id="search-box" placeholder="Search.." />
+            <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+            </form>
+        </div> <br>
+
+
+    <span>Latest Post</span>
+
+
+
+    <main id="main-content">
+        <!-- Blog posts will go here -->
+        <div class="post1">
+            <h2 class="text">Title: Men’s Journal</h2>
+            <p class="text">Date: [19-MARCH-2024]</p>
+            <img src="images/post1.png" alt="Post 1 Image">
+            <p class="text">Main topics: men, health, style, adventure, gear
+                Created on: vishnu
+
+                The Men’s Journal website is the online version of the American magazine of the same name.
+                
+                The lifestyle blog targeted towards men features various topics such as health and fitness, male grooming and style, outdoor recreation and travel, as well as cars and consumer electronics.
+                
+                What Can We Learn From This Blog
+                
+                The website has a very organized navigation bar. For example, if a site visitor hovers over Gear on the navigation bar, various categories – such as Autos, Tech, and Fitness – will appear, complete with corresponding pictures.
+                
+                Visitors can even click on the arrow on either side of the categories to check out more categories.</p>
+        </div>
+        <div id="comments-section"></div>
+        <form id="comment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="comment">Comment:</label>
+            <textarea id="comment" required></textarea>
+            <button type="button" onclick="submitComment()">Submit Comment</button>
+        </form>
+        
+        <div class="post2">
+            <h2 class="text">Title: Fit Bottomed Girls</h2>
+            <p class="text">Date: [14-March-2024]</p>
+            <img src="images/post2.png" alt="Post 2 Image">
+            <p class="text">Main topics: women’s fitness, wellness, motherhood, nutrition
+                Created on: vishnu
+                With posts on positive affirmations and workout routines, Fit Bottomed Girls is a blog helping women maintain their health both mentally and physically.
+                
+                Run by two certified fitness professionals, the blog also advocates body positivity, driven by the belief that healthy bodies come in various shapes and sizes.
+                
+                What Can We Learn From This Blog
+                
+                The blog’s content is divided into four main categories: Fitness, Mamas, Eats, and Zen. Each category has a specific color label: magenta for Fitness, purple for Mamas, green for Eats, and blue for Zen.
+                
+                This neat color-coded system is a great example of how to improve user experience. It provides a quick and easy way to find a specific category of content just by looking for a particular color.</p>
+        </div>
+        <div id="comments-section"></div>
+        <form id="comment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="comment">Comment:</label>
+            <textarea id="comment" required></textarea>
+            <button type="button" onclick="submitComment()">Submit Comment</button>
+        </form>
+        
+        <div class="post3">
+            <h2 class="text">Title: MyFitnessPal Blog</h2>
+            <p class="text">Date: [25-April-2024]]</p>
+            <img src="images/post3.png" alt="Post 3 Image">
+            <p class="text">Main topics: nutrition, weight loss, fitness
+                Created on: vishnu
+                The creators of the MyFitnessPal app that tracks one’s nutrition and fitness goals also run the MyFitnessPal blog.
+                
+                The website content includes healthy food recipes, weight loss tips, and workout guides. In addition, the blog features inspirational success stories of people who have managed to become healthier after losing weight or overcoming a nutrition-related illness.
+                
+                What Can We Learn From This Blog
+                
+                Upon accessing the website, visitors will immediately see the banner inviting them to sign up for the MyFitnessPal newsletter. This is an excellent method to help build your readers’ mailing list.
+                
+                The blog’s homepage also uses a slider featuring their trending articles, displayed in article headlines and their accompanying pictures.</p>
+        </div>
+        <div id="comments-section"></div>
+        <form id="comment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="comment">Comment:</label>
+            <textarea id="comment" required></textarea>
+            <button type="button" onclick="submitComment()">Submit Comment</button>
+        </form>
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
