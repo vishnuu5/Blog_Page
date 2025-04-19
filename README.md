@@ -12,6 +12,9 @@ This is a simple blog website created using HTML, CSS, and JavaScript. It allows
 - Basic styling using CSS to enhance the aesthetics of the website.
 - JavaScript functionality to handle comment submission and date display.
 
+## Demo
+click=> [Here](https://blogpagee.netlify.app)
+
 ## Project Structure
 
 The project directory is organized as follows:
